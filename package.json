@@ -1,0 +1,36 @@
+{
+    "name": "tescobot",
+    "version": "1.0.0",
+    "description": "A smart bot",
+    "author": "Tesco",
+    "license": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "watch": "nodemon ./index.js",
+        "lint": "eslint .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com"
+    },
+    "dependencies": {
+        "botbuilder": "^4.4.0",
+        "botbuilder-ai": "^4.4.0",
+        "botbuilder-applicationinsights": "^4.4.0",
+        "botbuilder-dialogs": "^4.4.0",
+        "botframework-config": "^4.4.0",
+        "dotenv": "^7.0.0",
+        "restify": "^8.3.3"
+    },
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "eslint-config-standard": "^12.0.0",
+        "eslint-plugin-import": "^2.17.3",
+        "eslint-plugin-node": "^8.0.1",
+        "eslint-plugin-promise": "^4.1.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "nodemon": "^1.19.1"
+    }
+}

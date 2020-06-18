@@ -1,0 +1,18 @@
+{
+    "name": "tesco-cloudy",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "28a84b30-8b60-11e9-8929-0ddc7bd18f45",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "your/local/path"
+}
