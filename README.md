@@ -2,6 +2,14 @@
 
 Cloudy is your friendly chatbot for azure support and FAQs.
 
+The chatbot leverages the LUIS model at Azure to understand messages conversationally and categorizes a question as standard chatting or a QnA. 
+
+Every QnA question is then routed to a QnA maker in Azure populated with standard FAQ Q and A pairs to be answered.
+
+The bot is tranined on these QnA pairs to understand what is a QnA and what is filler information before and after.
+
+The bot also greets the user on startup.
+
 This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to create a simple bot that accepts input from the user and echoes it back.
 
 ## Prerequisites
